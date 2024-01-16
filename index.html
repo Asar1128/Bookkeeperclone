@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>bookkeeper360</title>
+</head>
+
+<body>
+    <!-- navbar -->
+    <header>
+        <div class="main-navbar">
+            <div class="container">
+                <div class="navbar row">
+                    <div class="main-logo">
+                        <a href="index.html"> <img src="images/main-logo.png" alt="main logo of the page"></a>
+                    </div>
+                    <div class="nav-list  row">
+                        <ul class="row">
+                            <li><a href="#">Our App</a></li>
+                            <li><a href="pricing.html">Pricing</a></li>
+                            <li>
+                                <div class="dropdown" data-dropdown>
+                                    <button class="link" data-dropdown-button>solutions</button>
+                                    <!-- Data attribute rather than class for selecting (seperation of concerns, can change JS stuff without worrying about CSS breaking) -->
+                                    <div class="dropdown-menu information-grid">
+
+                                        <div class="test">
+                                            <div class="dropdown-heading">
+                                                <img src="images/dropdown.png" alt="demo img">
+                                                <div class="dropdown-img-text">
+                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                                        industry. </p>
+                                                    <div class="dropdown-cl-invert">
+                                                        <a href="#">learn more <i
+                                                                class="fa-light fa-arrow-right"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div>
+                                            <div class="dropdown-heading-right">
+                                                <div class="dropdown-right">
+                                                    <!--we wil use d-flex with direction in order to make a responsive mobile layout also  -->
+                                                    <div class="dropdown-bookeeping | row">
+                                                        <div class="dropdown-icons ">
+                                                            <h3>Bookkeeping</h3>
+                                                            <p>Lorem Ipsum is simply dummy text of the printing and
+                                                                typesetting
+                                                                industry. </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="dropdown-CFO-advisory">
+                                                        <h3>CFO Advisory</h3>
+                                                        <p>Lorem Ipsum is simply dummy text of the printing and
+                                                            typesetting
+                                                            industry</p>
+                                                    </div>
+                                                    <div class="dropdown-Payroll">
+                                                        <h3>Payroll & HR</h3>
+                                                        <p>Lorem Ipsum is simply dummy text of the printing and
+                                                            typesetting
+                                                            industry</p>
+                                                    </div>
+                                                    <div class="dropdown-rtd-tax">
+                                                        <h3>R & D Tax Credit </h3>
+                                                        <p>Lorem Ipsum is simply dummy text of the printing and
+                                                            typesetting
+                                                            industry</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                        <div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- dropdown option -->
+                           
+                            <li>
+                                <div class="dropdown" data-dropdown>
+                                    <button class="link" data-dropdown-button>company</button>
+                                    <!-- Data attribute rather than class for selecting (seperation of concerns, can change JS stuff without worrying about CSS breaking) -->
+                                    <div class="dropdown-menu information-grid">
+    
+                                        <div class="test">
+                                            <div class="dropdown-heading">
+                                                <img src="images/dropdown.png" alt="demo img">
+                                                <div class="dropdown-img-text">
+                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                                        industry. </p>
+                                                    <div class="dropdown-cl-invert">
+                                                        <a href="#">learn more <i class="fa-light fa-arrow-right"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+    
+                                        </div>
+                                        <div>
+                                            <div class="dropdown-heading-right">
+                                                <div class="dropdown-right">
+                                                    <!--we wil use d-flex with direction in order to make a responsive mobile layout also  -->
+                                                    <div class="dropdown-bookeeping | row">
+                                                        <div class="dropdown-icons ">
+                                                            <h3>Bookkeeping</h3>
+                                                            <p>Lorem Ipsum is simply dummy text of the printing and
+                                                                typesetting
+                                                                industry. </p>
+                                                        </div>
+                                                    </div>
+                                               
+                                                </div>
+                                            </div>
+    
+                                        </div>
+    
+                                        <div>
+    
+                                        </div>
+    
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- dropdown option -->
+                            <li>Blog</li>
+                        </ul>
+                        <div class="navbar-btns">
+                            <a href="#" class="navbar-btn">Get started</a>
+                            <a href="#" class="navbar-btn  bg-change">Login</a>
+                        </div>
+                    </div>
+                    <!-- mobile menu -->
+                    <nav class="mobile-menu">
+                        <div class="openMenu"><i class="fa fa-bars"></i></div>
+                        <ul class="mainMenu">
+                            <li><a href="#">Our App</a></li>
+                            <li><a href="pricing.html">pricing</a></li>
+                            <li><a href="#">solutions</a></li>
+                            <li><a href="#">Company</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <div class="closeMenu"><i class="fa fa-times"></i></div>
+                            <span class="icons">
+                                <i class="fab fa-facebook"></i>
+                                <i class="fab fa-instagram"></i>
+                                <i class="fab fa-twitter"></i>
+                                <i class="fab fa-github"></i>
+                            </span>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- info section -->
+    <div class="info-section |  row">
+        <div class="info-section-col-1">
+            <div class="info-section-col-1-text">
+                <h2 class="info-section-lg-text heading-fs">the top accounting program for small-scale companies</h2>
+                <p class="info-section-sm-text para-fs">discover more information about our specialized advices, tax,
+                    and
+                    bookkeeping services.</p>
+
+                <div class="info-btns">
+                    <a href="#" class="info-btn-1 para-fs">Book a Demo</a>
+                    <a href="#" class="info-btn-2 para-fs">Get Started </a>
+                </div>
+            </div>
+            <div class="info-images | row">
+                <img src="images/info-img-1.png" alt="company img">
+                <img src="images/info-img-2.png" alt="company img">
+                <img src="images/info-img-3.png" alt="company img">
+                <img src="images/info-img-4.png" alt="company img">
+            </div>
+        </div>
+        <div class="info-section-col-2">
+            <!-- graph here -->
+            <div class="main-graph">
+                <div class="tp-graph">
+                    <img class="sm-image" src="images/girl.png" alt="">
+                    <p>Hey Aelita!your Weekly books are all set</p>
+                </div>
+                <img class="graph" src="images/graph.png" alt="">
+                <div class="bt-graph">
+                    <p>Thanks! By the way, one of my vendors asking about a missing check</p>
+                    <img class="sm-image" src="images/boy.jpg" alt="">
+                </div>
+            </div>
+            <div class="info-section-col-2-imgs">
+                <!-- girl image here -->
+                <img class="info-img" src="images/girl.png" alt="">
+            </div>
+            <!-- the text below the image here -->
+            <div class="st-text">
+                <p>Anlita West</p>
+                <div class="row text-icons">
+                    <h5>Buying his $ 21,347 - 2022 | Marcedes Benz G-Class</h5>
+                    <div class="st-icons ">
+                        <i class="fa-solid fa-circle-chevron-right" style="color: #fffafa;"></i>
+                        <i class="fa-solid fa-circle-chevron-left" style="color: #fcfcfc;"></i>
+                    </div>
+                </div>
+                <div class="row st-dots">
+                    <span class="dots"></span>
+                    <span class="dots"></span>
+                    <span class="dots active"></span>
+                    <span class="dots"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    </>
+    <!-- rating section -->
+    <div class="sec-rating">
+        <div class="container">
+            <div class="rating-heading">
+                <h3 class="para-fs">Thousands of expanding enterprices rely on us</h3>
+            </div>
+            <div class="row rating-sec-align">
+                <div class="rating">
+                    <p class="main-rating">4.9</p>
+                    <i class="fa-sharp fa-solid fa-star"></i>
+                    <i class="fa-sharp fa-solid fa-star"></i>
+                    <i class="fa-sharp fa-solid fa-star"></i>
+                    <i class="fa-sharp fa-solid fa-star"></i>
+                    <i class="fa-sharp fa-solid fa-star"></i>
+                    <div class="rating-img">
+                        <img src="images/rating-sec-img-1.png" alt="">
+                    </div>
+                    <p>Dec 2022</p>
+                </div>
+                <div class="rating">
+                    <p class="main-rating">4.9</p>
+                    <i class="fa-sharp fa-solid fa-star"></i>
+                    <i class="fa-sharp fa-solid fa-star"></i>
+                    <i class="fa-sharp fa-solid fa-star"></i>
+                    <i class="fa-sharp fa-solid fa-star"></i>
+                    <i class="fa-sharp fa-solid fa-star"></i>
+                    <div class="rating-img">
+                        <img src="images/rating-sec-img-1.png" alt="">
+                    </div>
+                    <p>Dec 2022</p>
+                </div>
+                <div class="rating">
+                    <p class="main-rating">4.86</p>
+                    <i class="fa-sharp fa-solid fa-star"></i>
+                    <i class="fa-sharp fa-solid fa-star"></i>
+                    <i class="fa-sharp fa-solid fa-star"></i>
+                    <i class="fa-sharp fa-solid fa-star"></i>
+                    <i class="fa-sharp fa-solid fa-star"></i>
+                    <div class="rating-img">
+                        <img src="images/rating-sec-img-1.png" alt="">
+                    </div>
+                    <p> Dec 2022</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- tusted buisnesses -->
+    <div class="companies-sec">
+        <div class="container">
+            <p>Trusted by <span class="span">1000+</span> small buisnesses</p>
+            <div class="row companies-sec-imgs">
+                <div class="img-1">
+                    <img src="images/companies-img-1.png" alt="">
+                </div>
+                <div class="img-1">
+                    <img src="images/companies-img-1.png" alt="">
+                </div>
+                <div class="img-1">
+                    <img src="images/companies-img-1.png" alt="">
+                </div>
+                <div class="img-1">
+                    <img src="images/companies-img-1.png" alt="">
+                </div>
+                <div class="img-1">
+                    <img src="images/companies-img-1.png" alt="">
+                </div>
+                <div class="img-1">
+                    <img src="images/companies-img-1.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- vedio section -->
+    <div class=" vedio-main">
+        <h2>How Finincial Service Returned Dr.Emma's Time</h2>
+        <div class="vedio-section">
+            <div class="vedio-logo">
+                <img src="images/main-logo.png" alt="">
+            </div>
+            <div class="vedio">
+                <video controls autoplay loop muted width="100%">
+                    <source src="https://youtu.be/klC79kvGTZs">
+                </video>
+            </div>
+            <div class="background-text">
+                <h3>Your dedicated accounting team</h3>
+                <p>pilot provides accounting, CFO and tax services for startups and growing businesses</p>
+            </div>
+            <div class="vedio-like-sec row">
+                <div class="row">
+                    <div class="vedio-like row">
+                        <i class="fa-solid fa-thumbs-up"></i>
+                        <p>(23)</p>
+                    </div>
+                    <div class="vedio-comment row">
+                        <i class="fa-solid fa-message"></i>
+                        <p>(32)</p>
+                    </div>
+                </div>
+                <div class="vedio-share">
+                    <i class="fa-solid fa-share-nodes"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- clients section -->
+    <div class="clients-sec">
+        <div class="container">
+            <h2 class="clients-text">check out what our clients are saying about us </h2>
+            <div class="main-cards max-width ">
+                <!-- cards -->
+                <div class="card">
+                    <div class="card-1">
+                        <div class="main-img row">
+                            <img class="card-img" src="images/info-img-3.png" alt="">
+                            <p>Emma Watson <br><span>37 y/o-Developer</span></p>
+                        </div>
+                    </div>
+                    <div class="cards-info-p row ">
+                        <p>Property assets (2 years)</p>
+                        <P>Canada</P>
+                        <img src="images/rating-sec-img-1.png" alt="">
+                    </div>
+                    <div class="cards-info">
+                        <p>"We've been working with BK360 for four years ad highly recommended their services to any
+                            small,
+                            medium
+                            or large company.Simply put, they understood our buisness within days! Responsive and
+                            professional,
+                            they
+                            are simply great!"</p>
+                    </div>
+                    <div class="card-stars">
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-1">
+                        <div class="main-img row">
+                            <img class="card-img" src="images/boy.jpg" alt="">
+                            <p>Emma Watson <br><span>37 y/o-Developer</span></p>
+                        </div>
+                    </div>
+                    <div class="cards-info-p row ">
+                        <p>Property assets (2 years)</p>
+                        <P>Canada</P>
+                        <img src="images/rating-sec-img-1.png" alt="">
+                    </div>
+                    <div class="cards-info">
+                        <p>"We've been working with BK360 for four years ad highly recommended their services to any
+                            small,
+                            medium
+                            or large company.Simply put, they understood our buisness within days! Responsive and
+                            professional,
+                            they
+                            are simply great!"</p>
+                    </div>
+                    <div class="card-stars">
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <div class="card-1">
+                        <div class="main-img row">
+                            <img class="card-img" src="images/info-img-3.png" alt="">
+                            <p>Emma Watson <br><span>37 y/o-Developer</span></p>
+                        </div>
+                    </div>
+                    <div class="cards-info-p row ">
+                        <p>Property assets (2 years)</p>
+                        <P>Canada</P>
+                        <img src="images/rating-sec-img-1.png" alt="">
+                    </div>
+                    <div class="cards-info">
+                        <p>"We've been working with BK360 for four years ad highly recommended their services to any
+                            small,
+                            medium
+                            or large company.Simply put, they understood our buisness within days! Responsive and
+                            professional,
+                            they
+                            are simply great!"</p>
+                    </div>
+                    <div class="card-stars">
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <div class="card-1">
+                        <div class="main-img row">
+                            <img class="card-img" src="images/info-img-3.png" alt="">
+                            <p>Emma Watson <br><span>37 y/o-Developer</span></p>
+                        </div>
+                    </div>
+                    <div class="cards-info-p row ">
+                        <p>Property assets (2 years)</p>
+                        <P>Canada</P>
+                        <img src="images/rating-sec-img-1.png" alt="">
+                    </div>
+                    <div class="cards-info">
+                        <p>"We've been working with BK360 for four years ad highly recommended their services to any
+                            small,
+                            medium
+                            or large company.Simply put, they understood our buisness within days! Responsive and
+                            professional,
+                            they
+                            are simply great!"</p>
+                    </div>
+                    <div class="card-stars">
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <div class="card-1">
+                        <div class="main-img row">
+                            <img class="card-img" src="images/info-img-3.png" alt="">
+                            <p>Emma Watson <br><span>37 y/o-Developer</span></p>
+                        </div>
+                    </div>
+                    <div class="cards-info-p row ">
+                        <p>Property assets (2 years)</p>
+                        <P>Canada</P>
+                        <img src="images/rating-sec-img-1.png" alt="">
+                    </div>
+                    <div class="cards-info">
+                        <p>"We've been working with BK360 for four years ad highly recommended their services to any
+                            small,
+                            medium
+                            or large company.Simply put, they understood our buisness within days! Responsive and
+                            professional,
+                            they
+                            are simply great!"</p>
+                    </div>
+                    <div class="card-stars">
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- customers section -->
+    <div class="customers-sec">
+        <div class="container">
+            <h2>check out what our customers are saying</h2>
+            <div class="row clients-info">
+                <a href="#">Bookkeeping</a>
+                <a href="#">CFO advisory</a>
+                <a href="#" class="active">Payroll & HR</a>
+                <a href="#">R & D tax Credit</a>
+            </div>
+            <div class="row customer-info-img">
+                <img src="images/customers-sec-img.png" class="customers-img " alt="">
+                <div class="customers-info" id="customer-info">
+                    <h2>Accounting who immediately respond to your calls and emails do exists! </h2>
+                    <p>Tired of working with a CPA who is roo busy to return your calls and emails?</p>
+                    <p>Been burned by a freelancer who disappears and then reappears only to deilver messy books?</p>
+                    <p>Eliminate headaches and surprises by hiring our helpful team of professional accounting and
+                        bookkeepers who get back to your quickly and treat you with the respect you deserve</p>
+                    <a href="#" class="info-btn-1">Book a Demo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="customers-sec-2">
+        <div class="container">
+            <div class="customer-info-img-2">
+                <div class="customers-info" id="customer-info">
+                    <h2>Technology-powered people making your achievement possible </h2>
+                    <p class="color-change bg-text">Tour team, which is entirely headquartered in the US,uses technology
+                        to
+                        manage
+                        your acounts in a tailored way</p>
+                    <p class="bg-text">Devoted accountant backed by a group</p>
+                    <p class="bg-text">Dedicated bookkeeprs for your company</p>
+                    <p class="bg-text">Kind and accommodating communication</p>
+                    <p class="bg-text">The entire staff is made up of full-time W-2 emplotees.</p>
+                    <p class="bg-text">All work is done in the United States- We never use labour from abroad.</p>
+                    <a href="#" class="info-btn-1">Book a Demo</a>
+                </div>
+                <img src="images/group.png" class="customers-img " alt="">
+            </div>
+        </div>
+    </div>
+    <!--Jc suport section  -->
+    <div class="support-main">
+        <div class="container">
+            <div class="jc-support row">
+                <div class="jc-col-1">
+                    <h2>
+                        Get Started with JC Suport
+                    </h2>
+                    <p class="text-size">Discover more information about our specialised advice, tax, and bookkeeping
+                        services
+                    </p>
+                    <a class="jc-btn" href="#">Book a Demo</a>
+                </div>
+                <div class="jc-col-2">
+                    <img src="images/footer-graph-1.png" class="f-graph-1" alt="">
+                    <div class="jc-images">
+                        <img src="images/footer-graph-2.png" class="f-graph-2" alt="">
+                    </div>
+                    <img class="girl-2-img" src="images/girl-2.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- starter button and text -->
+    <div class="frame-container">
+        <div class="dk-square ">
+            <div class="row dk-space">
+                <h2>Reasy to get started?</h2>
+                <a class="call-btn" href="#">Schedule a call</a>
+            </div>
+            <p>(800) 478-5082</p>
+        </div>
+    </div>
+    <!-- footer section -->
+    <div class="footer frame-container">
+        <div class="row footer-cols">
+            <div class="footer-col-1">
+                <div class="footer-lt-text">
+                    <h3>Contracy to popular belief,Lorem Ispum is not simply random text</h3>
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                        classical Latin literature from 45 BC, making it over 2000 years old.
+                    </p>
+                </div>
+            </div>
+            <div class="footer-col-2 row">
+                <div class="sol-col">
+                    <h3>Solutions</h3>
+                    <p>Bookkeeping</p>
+                    <p>CFO Advisory</p>
+                    <p>Payroll & HR</p>
+                    <p>R & D Tax Credit</p>
+                </div>
+                <div class="sol-col">
+                    <h3>Company</h3>
+                    <p>About</p>
+                    <p>Meet the Team</p>
+                    <p>Blog</p>
+                    <p>Press</p>
+                    <p>Careers</p>
+                    <p>Community</p>
+                </div>
+                <div class="sol-col">
+                    <h3>Resources</h3>
+                    <p>Partner Program</p>
+                    <p>Payment Method</p>
+                    <p>pricing</p>
+                </div>
+                <div class="sol-col">
+                    <h3>Legal</h3>
+                    <p>Privacy Notice</p>
+                    <p>Subscription Agreement</p>
+                </div>
+            </div>
+        </div>
+        <div class="row footer-lt">
+            <!-- her the div we use is just to prevent it from justifying -->
+            <div class="footer-lt-gap row">
+                <input type="text" placeholder="Enter Your email address" class="footer-inpt">
+                <button class="footer-lt-btn">Book a Demo</button>
+            </div>
+            <!-- gmail access and phone number -->
+            <div class="footer-rt-info row">
+                <a href="#">email@gmail1322.com</a>
+                <p> (+441) 847-837</p>
+            </div>
+        </div>
+        <!-- footer-icons -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
